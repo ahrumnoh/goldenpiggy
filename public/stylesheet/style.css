@@ -27,7 +27,7 @@ body, html {
 }
   
 .wrapper {
-    background-image: url("https://source.unsplash.com/2300x2300/?peach");
+    background-image: url("https://source.unsplash.com/2300x2300/?black");
 }
 a {
     text-decoration: none;
@@ -35,7 +35,7 @@ a {
     padding-top: 5%;
     font-size: 28px;
     text-align: justify;
-    color: #04e9a4;
+    color: #ffda08;
     font-weight: bold;
     transition: color .1s;
     
