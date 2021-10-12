@@ -9,13 +9,31 @@
 
   
 div.title {
-    background-color:#050505;
+    background-color:#550c188e;
     height: 70px;
+    width: 450px;
+    border: groove 1em rgb(14, 13, 13);
+    border-radius: 2em;   
 }
 
-div.meta {
+
+div#date.meta {
     background-color: rgb(240, 125, 10);
     height: 60px;
+    width: 450px;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(29, 2, 11, 0.74);
+    
+}
+
+div#info.meta {
+    background-color: rgb(240, 125, 10);
+    height: 60px;
+    width: 450px;
+    border: none;
+    border-radius: 0px 0px 30px 30px;
+    background: rgba(61, 4, 24, 0.815);
+    
 }
 
 body, html {
@@ -27,15 +45,33 @@ body, html {
 }
   
 .wrapper {
-    background-image: url("https://source.unsplash.com/2300x2300/?black");
+    background-image: url("../assets/photo-1621932953986-15fcf084da0f.jpg");
+    
 }
+
+::marker {
+    color:rgb(228, 8, 8);
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.fa-piggy-bank:before {
+    content: "\f4d3";
+    color: yellow;
+    font-size: xxx-large;
+}
+
 a {
     text-decoration: none;
     margin-top: 3%;
     padding-top: 5%;
-    font-size: 28px;
+    font-size: 18px;
     text-align: justify;
-    color: #ffda08;
+    color: #4eff08;
     font-weight: bold;
     transition: color .1s;
     
@@ -109,7 +145,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
-    background-color: #313b0360;
+    background-color: #333d05a1;
 }
   
 header h1 {
@@ -218,3 +254,7 @@ a.edit-link {
     text-shadow: 2px 2px 5px rgb(245, 245, 239);
 }
 
+
+a#pig {
+    color:rgb(255, 185, 7);
+}

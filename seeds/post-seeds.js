@@ -7,14 +7,14 @@ const postdata = [
     user_id: 1
   },
   {
-    title: 'This is my github Website',
-    post_content: 'Goldenpiggyinvestment',
+    title: 'Tron will be $1, early of next year 2022',
+    post_content: 'Such an innovative block-chain system, expands their territory to EU countires',
     user_id: 2
   },
   {
-    title: 'I love Software Engineering.',
-    post_content: 'I feel very happy',
-    user_id: 1
+    title: 'XRP, Finally made a essentail contracts!!',
+    post_content: 'Such a mega hit, shocking info!, Ripple made a partnership with Novatti in Thailand, In addition, with Qartar national bank!!',
+    user_id: 3
   },
 ];
 
