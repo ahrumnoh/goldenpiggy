@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 
 * {
@@ -9,10 +9,10 @@
 
   
 div.title {
-    background-color:#550c188e;
+    background-color:#130c01;
     height: 70px;
     width: 450px;
-    border: groove 1em rgb(14, 13, 13);
+    border: groove 1em rgba(37, 19, 19, 0.925);
     border-radius: 2em;   
 }
 
@@ -22,8 +22,7 @@ div#date.meta {
     height: 60px;
     width: 450px;
     border-radius: 30px 30px 0px 0px;
-    background: rgba(29, 2, 11, 0.74);
-    
+    background: rgba(29, 2, 11, 0.74);    
 }
 
 div#info.meta {
@@ -32,21 +31,19 @@ div#info.meta {
     width: 450px;
     border: none;
     border-radius: 0px 0px 30px 30px;
-    background: rgba(61, 4, 24, 0.815);
-    
+    background: rgba(61, 4, 24, 0.815);    
 }
 
 body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Teko', sans-serif;
     color: rgb(247, 242, 242);
 }
   
 .wrapper {
-    background-image: url("../assets/photo-1621932953986-15fcf084da0f.jpg");
-    
+    background-image: url("../assets/photo-1621932953986-15fcf084da0f.jpg");    
 }
 
 ::marker {
@@ -61,7 +58,7 @@ body, html {
 
 .fa-piggy-bank:before {
     content: "\f4d3";
-    color: yellow;
+    color: rgb(247, 133, 27);
     font-size: xxx-large;
 }
 
@@ -69,11 +66,12 @@ a {
     text-decoration: none;
     margin-top: 3%;
     padding-top: 5%;
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
-    color: #4eff08;
+    color: #e0ebb0;
     font-weight: bold;
     transition: color .1s;
+    text-align: center;
     
 }
   
@@ -124,8 +122,7 @@ form > div {
 form label {
     display: block;
     font-size: 25px;
-    color:rgb(240, 54, 110);
-    text-shadow: 2px 2px 5px rgba(5, 252, 190, 0.404);
+    color:rgb(255, 251, 253);
     padding-bottom: 3%;
     
  }
@@ -141,15 +138,15 @@ form label {
   
 header {
     border-bottom: 1px solid #ccc;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    justify-content:center;
     align-items: center;
     padding: 0 1%;
-    background-color: #333d05a1;
+    background-color: #333d05e1;
 }
   
 header h1 {
-    font-size: 50px;
+    font-size: 70px;
 }  
  
 main {
@@ -163,11 +160,12 @@ main {
     padding: 10;
     cursor: pointer;
     text-decoration: none;
-    color: #e92ca1;
+    color: #10fd17;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
     margin-left: 16px;
+    font-size: 17px;
 }
   
 .btn-no-style:hover {
@@ -236,25 +234,55 @@ footer {
 }
 
 h2 {
-    color: rgb(53, 182, 41);
-    text-shadow: 2px 2px 5px rgba(216, 8, 243, 0.548);
+    font-size: 20px;
+    height: 30px;
+    width: 330px;
+    border-style: solid;
+    border-color: rgb(247, 5, 5);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(15, 3, 0, 0.589);
+    
 }
+
+
 span{
     color:rgb(37, 37, 34);
-    text-shadow: 2px 2px 5px rgb(252, 252, 5);
     padding-bottom: 3%;
+    text-align: left;
 }
 
 div {
     background-color: rgba(245, 222, 179, 0.247);
 }
 a.edit-link {
-    font-size: 25px;
-    color:rgb(25, 136, 136);
-    text-shadow: 2px 2px 5px rgb(245, 245, 239);
+    font-size: 12px;
+    color:rgb(7, 7, 7);
+    text-align: left;
 }
 
 
 a#pig {
-    color:rgb(255, 185, 7);
+    color:rgb(238, 255, 6);
+    font-size: 30px;
+    text-align: center;
+}
+a#login {
+    color: rgb(109, 252, 26);
+    font-size: 20px;
+}
+
+nav{
+    height: 60px;
+}
+article.post {
+    text-align: left;
+}
+
+div{
+    font-size: 22px;
+    color:wheat;
+}
+div.meta{
+    font-size: 13px;
 }

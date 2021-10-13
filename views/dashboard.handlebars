@@ -1,6 +1,19 @@
 <section>
   <h2>Create New Post</h2>
 
+  
+
+  <style>
+    main{background-color: black;}
+    div{background-color: rgba(8, 8, 8, 0.993);}
+    span{color: white;}
+    h2{ color: rgba(209, 195, 149, 0.979);}
+    div.meta{text-align: left;}
+    
+    
+  </style>
+
+
   <form class="new-post-form">
     <div>
       <label for="post-title">Title</label>
@@ -10,18 +23,18 @@
       <label for="post-content">Post Content</label>
       <textarea name="post-content"></textarea>
     </div>
-    <button type="submit" class="btn">Create</button>
+    <button type="submit" class="btn" >Create</button>
   </form>
 </section>
 
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
+  <h2>My Previous Posts Management</h2>
   <ol>
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a>
+      <button type="submit" class="btn" ><a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a></button>
     </li>
     {{/each}}
   </ol>
