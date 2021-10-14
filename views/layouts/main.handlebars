@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>THE Crypto Blog</title>
   <link rel="stylesheet" href="/stylesheet/style.css">
-  <link rel="cryptohtml" href="/crypto/cryptoindex.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Satisfy&display=swap" rel="stylesheet">
@@ -20,12 +19,14 @@
 
   <div class="wrapper">
     <header>
+      <p id="currentTime"></p>
       <h1>
         <a href="/" id='pig'><i class="fas fa-piggy-bank"></i>     Golden Piggy Crypto 💸 </a></h1>
+       
       <nav>
         
         {{#if loggedIn}}
-        <a href="/cryptoindex">Crypto Live__</a>  <!--how to connect to html file, 14th oct -->
+        <a href="/crypto">Crypto Live__</a>  <!--how to connect to html file, 14th oct -->
         <a href="/dashboard">Dashboard</a>
         
         <button id="logout" class="btn-no-style">Logout</button>
@@ -47,7 +48,9 @@
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script> 
+  
   {{/if}}
 </body>
+
 
 </html>

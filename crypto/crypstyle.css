@@ -31,3 +31,9 @@ th#price {
 th#symbol {
   color:yellow;
 }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: antiquewhite;
+}
