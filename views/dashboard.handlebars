@@ -15,29 +15,39 @@
 
 
   <form class="new-post-form">
+
     <div>
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title"/>
     </div>
+
     <div>
       <label for="post-content">Post Content</label>
       <textarea name="post-content"></textarea>
     </div>
+
     <button type="submit" class="btn" >Create</button>
   </form>
+
 </section>
+
+
 
 {{#if posts.length}}
 <section>
   <h2>My Previous Posts Management</h2>
+
   <ol>
     {{#each posts as |post|}}
+
     <li>
       {{> post-info post}}
       <button type="submit" class="btn" ><a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a></button>
     </li>
+
     {{/each}}
   </ol>
+  
 </section>
 {{/if}}
 

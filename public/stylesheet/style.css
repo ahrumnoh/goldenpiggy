@@ -68,7 +68,7 @@ a {
     padding-top: 5%;
     font-size: 17px;
     text-align: justify;
-    color: #e0ebb0;
+    color: #b8da23;
     font-weight: bold;
     transition: color .1s;
     text-align: center;
@@ -122,7 +122,7 @@ form > div {
 form label {
     display: block;
     font-size: 25px;
-    color:rgb(255, 251, 253);
+    color:rgb(145, 122, 133);
     padding-bottom: 3%;
     
  }
@@ -151,8 +151,10 @@ header h1 {
  
 main {
     flex: 1;
-    padding: 3% 4%;
+    padding: 3% 4%;  
 }
+
+
   
 .btn-no-style {
     background: none;
@@ -204,6 +206,7 @@ main {
 .comment {
     padding: 1%;
     margin-bottom: 1%;
+    background: wheat;
 }
   
 .comment:nth-child(odd) {
@@ -253,7 +256,7 @@ span{
 }
 
 div {
-    background-color: rgba(245, 222, 179, 0.247);
+    background-color: rgba(167, 120, 32, 0.616);
 }
 a.edit-link {
     font-size: 12px;
@@ -277,12 +280,47 @@ nav{
 }
 article.post {
     text-align: left;
+    /* background-color: rgba(222, 184, 135, 0.808); */
 }
 
 div{
     font-size: 22px;
-    color:wheat;
+    color:black;
+    /* background-color: blanchedalmond; */
 }
 div.meta{
     font-size: 13px;
+    color:black;
+    /* background-color: blanchedalmond; */
 }
+
+div#date.meta {
+    color: rgb(245, 245, 238);
+    font-size: 17px;
+}
+
+form#comment-form.comment-form {
+    background-color: rgba(222, 184, 135, 0.808);
+}
+
+
+section.comment {
+    background-color: wheat;
+}
+
+label#Email {
+    color: black;
+}
+
+label#Password {
+    color:black
+}
+
+label#Login {
+    color: black;
+}
+
+label#Username {
+    color:black;
+}
+
