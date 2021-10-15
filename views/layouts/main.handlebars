@@ -18,21 +18,23 @@
 <body>
 
   <div class="wrapper">
+    
     <header>
-      <p id="currentTime"></p>
+
+      
       <h1>
-        <a href="/" id='pig'><i class="fas fa-piggy-bank"></i>     Golden Piggy Crypto 💸 </a></h1>
+        <a href="/" id='pig'><i class="fas fa-piggy-bank"></i>  Golden Piggy Crypto 💸 </a></h1>
        
       <nav>
         
         {{#if loggedIn}}
-        <a href="/crypto">Crypto Live__</a>  <!--how to connect to html file, 14th oct -->
-        <a href="/dashboard">Dashboard</a>
+        <a href="/crypto" id="crypto">Crypto Live  ||  </a>  <!--how to connect to html file, 14th oct -->
+        <a href="/dashboard" id="dashboard"> Dashboard</a>
         
-        <button id="logout" class="btn-no-style">Logout</button>
+        <button id="logout" class="btn-no-style">Logout 🔓</button>
     
         {{else}}
-        <a href="/login" id="login">Login</a>
+        <a href="/login" id="login">Login 🔑</a>
         {{/if}}
       </nav>
     </header>

@@ -8,9 +8,7 @@
     div{background-color: rgba(8, 8, 8, 0.993);}
     span{color: white;}
     h2{ color: rgba(209, 195, 149, 0.979);}
-    div.meta{text-align: left;}
-    
-    
+    div.meta{text-align: left;}    
   </style>
 
 
@@ -26,7 +24,21 @@
       <textarea name="post-content"></textarea>
     </div>
 
-    <button type="submit" class="btn" >Create</button>
+    {{!-- <div>
+      <img src="" id="myImg" width="" height= "">
+    </div> --}}
+
+    {{!-- <form class="form" id="myForm">
+    
+      <input type="file" name="inpFile" id="inpFile">
+      <button onclick="doupload()" name="submit">Upload File</button>
+    </form>
+
+    <br> --}}
+
+
+    <button type="submit" class="btn" id="uploadbtn">Create</button>
+
   </form>
 
 </section>
@@ -52,3 +64,11 @@
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
+
+<!--<script>
+let photo = document.getElementById("inpFile").files[0];
+let formData = new FormData();
+     
+formData.append("photo", photo);
+fetch('/upload/image', {method: "POST", body: formData});
+</script>
