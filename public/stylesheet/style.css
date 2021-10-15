@@ -62,8 +62,9 @@ body, html {
     font-size: xxx-large;
 }
 
+
+
 a {
-    text-decoration: none;
     margin-top: 3%;
     padding-top: 5%;
     font-size: 17px;
@@ -72,27 +73,33 @@ a {
     font-weight: bold;
     transition: color .1s;
     text-align: center;
+    text-decoration: none;
+    
 }
 
 a#crypto {
-    font-size: 22px;
+    font-size: 20px;
     color: crimson;
+    text-decoration:none;
 }
 
 a#dashbaord {
     font-size: 20px;
+    text-decoration:none;
 }
 a:hover {
     color: #719b0f;
+   
 }
   
 button {
     background-color: #f8f407;
+    font-size: 17px;
     border: 0;
     padding: 1%;
-    color: rgb(66, 4, 4);
+    color: rgb(151, 32, 32);
     font-weight: bold;
-    transition: background-color .1s;
+    /* transition: background-color .1s; */
     cursor: pointer;
     border-radius: 25px;
 }
@@ -128,7 +135,7 @@ form > div {
   
 form label {
     display: block;
-    font-size: 25px;
+    font-size: 18px;
     color:rgb(145, 122, 133);
     padding-bottom: 3%;
     
@@ -204,6 +211,7 @@ main {
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
+    color:blanchedalmond;
 }
   
 .comment-form {
@@ -238,13 +246,13 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1%;
-    font-size: 110%;
+    font-size: 70%;
     background-color: #27013096;
     color: white;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 15px;
     height: 30px;
     width: 330px;
     border-style: solid;
@@ -254,12 +262,16 @@ h2 {
     background-color: rgba(15, 3, 0, 0.589);
     
 }
+a#dashboard {
 
+    text-decoration:none;
+}
 
 span{
     color:rgb(37, 37, 34);
     padding-bottom: 3%;
     text-align: left;
+    font-size: 17px;
 }
 
 div {
@@ -277,12 +289,15 @@ a.edit-link {
 
 a#pig {
     color:rgb(238, 255, 6);
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    text-decoration:none;
+    
 }
 a#login {
     color: rgb(109, 252, 26);
-    font-size: 20px;
+    font-size: 15px;
+    text-decoration:none;
 }
 
 nav{
@@ -290,18 +305,16 @@ nav{
 }
 article.post {
     text-align: left;
-    /* background-color: rgba(222, 184, 135, 0.808); */
 }
 
 div{
     font-size: 22px;
     color:black;
-    /* background-color: blanchedalmond; */
+  
 }
 div.meta{
     font-size: 13px;
     color:black;
-    /* background-color: blanchedalmond; */
 }
 
 div#date.meta {
@@ -320,18 +333,22 @@ section.comment {
 
 label#Email {
     color: black;
+    font-size: 17px;
 }
 
 label#Password {
-    color:black
+    color:black;
+    font-size:17px;
 }
 
 label#Login {
     color: black;
+    font-size:17px;
 }
 
 label#Username {
     color:black;
+    font-size:17px;
 }
 
 
@@ -343,3 +360,5 @@ button#uploadbtn.btn {
 input#inpFile{
     color:white;
 }
+
+

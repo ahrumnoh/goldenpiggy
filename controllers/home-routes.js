@@ -92,4 +92,10 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
+router.get('/crypto', (req, res) => {
+  res.render('crypto') 
+})
+
+
+
 module.exports = router;
